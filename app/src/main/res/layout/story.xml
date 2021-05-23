@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/story_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/imdanielsimmons"
+        android:layout_marginRight="10dp"
+        app:civ_border_color="@color/Story_border"
+        app:civ_border_width="4dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:id="@+id/story_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="daniel"
+        android:layout_below="@id/story_image"
+        android:layout_centerHorizontal="true"
+        android:textSize="13sp"
+
+        />
+
+</RelativeLayout>
